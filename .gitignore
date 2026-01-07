@@ -1,0 +1,31 @@
+# Ambientes Virtuais (Pastas pesadas que não devem subir)
+.venv/
+venv/
+ENV/
+
+# Configurações do PyCharm
+.idea/
+*.iml
+
+# Arquivos de Configuração Sensíveis (Suas chaves e caminhos)
+.env
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de Mídia (Vídeos pesados)
+*.mp4
+*.mkv
+*.avi
+*.mp3
+*.wav
+
+# Resultados da Transcrição (Geralmente não queremos versionar os outputs)
+*.txt
+*.srt
+*.json
+
+# Cache de modelos de IA (Hugging Face)
+.cache/
