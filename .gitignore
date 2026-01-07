@@ -29,3 +29,5 @@ __pycache__/
 
 # Cache de modelos de IA (Hugging Face)
 .cache/
+
+!requirements.txt
